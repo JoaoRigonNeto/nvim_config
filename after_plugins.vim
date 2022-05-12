@@ -7,6 +7,5 @@ nnoremap <Leader>r <cmd>Telescope live_grep<CR>
 
 nnoremap <Leader>gB <cmd>Git blame<CR>
 
-nnoremap <silent> <Leader>j <cmd>Lspsaga diagnostics_jump_next<CR>
-nnoremap <silent> K <cmd>Lspsaga hover_doc<C:w
-
+nnoremap <Leader>t <cmd>NERDTreeToggleVCS<CR>
+nnoremap <Leader>w <cmd>TroubleToggle document_diagnostics<CR>
