@@ -7,7 +7,6 @@ let mapleader=";"
 
 set nu
 set expandtab
-set smartindent
 set nohlsearch
 set guicursor=
 set nowrap
@@ -24,6 +23,7 @@ set hidden
 set colorcolumn=100
 set cmdheight=2
 set mouse=a
+set encoding=UTF-8
 
 vmap <Leader>y :!xclip -f -sel clip<CR>
 map <Leader>p mz:-1r !xclip -o -sel clip<CR>`z

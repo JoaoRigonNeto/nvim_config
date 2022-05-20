@@ -14,9 +14,14 @@ Plug 'PhilRunninger/nerdtree-buffer-ops'
 Plug 'folke/trouble.nvim'
 Plug 'neovim/nvim-lspconfig'
 Plug 'williamboman/nvim-lsp-installer'
+Plug 'akinsho/toggleterm.nvim'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
 lua << EOF
+require("toggleterm").setup{}
 local treesitter = require('nvim-treesitter.configs')
 local actions = require('telescope.actions')
 require('telescope').setup({
