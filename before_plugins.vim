@@ -6,6 +6,7 @@ execute "set softtabstop=".tabsize
 let mapleader=";"
 
 set nu
+set rnu
 set expandtab
 set nohlsearch
 set guicursor=
@@ -21,7 +22,7 @@ set scrolloff=8
 set termguicolors
 set hidden
 set colorcolumn=100
-set cmdheight=2
+set cmdheight=1
 set mouse=a
 set encoding=UTF-8
 
